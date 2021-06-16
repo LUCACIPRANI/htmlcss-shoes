@@ -11,42 +11,67 @@ body {
 /* sections  */
 
 .section {
+    position: relative;
     height: 100vh;
 }
 
-.wrapper-first {
-    position: relative;
-    height: 100%;
-    margin: 0;
+.section.one {
     background-color: red;
 }
 
-.wrapper-second {
-    position: relative;
-    height: 100%;
-    margin: 0;
+.section.two {
     background-color: green;
 }
 
-.wrapper-third {
-    position: relative;
-    height: 100%;
-    margin: 0;
+.section.three {
     background-color: yellow;
 }
 
-/* Elementi comuni nella sezione */
-img{
+
+
+.wrapper-first {
     position: absolute;
-    top: 40%;
+    height: 50%;
+    margin: 0;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-.text {
+.wrapper-second {
     position: absolute;
-    bottom: 20%;
-    left: 28%;
+    height: 50%;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.wrapper-third {
+    position: absolute;
+    height: 50%;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Elementi comuni nella sezione */
+
+/* img{
+    /* position: absolute; */
+    /* top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+} */
+
+img {
+    height: 80%;
+}
+
+.text {
+    /* bottom: 20%;
+    left: 28%; */
     font-size: 40px;
     color: yellow;
     text-transform: uppercase;
@@ -55,9 +80,8 @@ img{
 /* fine Elementi comuni nella sezione */
 
 .text-b {
-    position: absolute;
-    bottom: 13%;
-    left: 40%;
+    /* bottom: 13%;
+    left: 40%; */
     font-size: 40px;
     color: yellow;
     text-transform: uppercase;
