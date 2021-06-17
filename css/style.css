@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+}
 * {
     margin: 0 auto;
     padding: 0;
@@ -9,7 +12,6 @@ body {
 }
 
 /* sections  */
-
 .section {
     position: relative;
     height: 100vh;
@@ -27,67 +29,30 @@ body {
     background-color: yellow;
 }
 
-
-
-.wrapper-first {
+.wrapper {
     position: absolute;
-    height: 50%;
+    height: 100vh;
+    width: 50%;
     margin: 0;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-}
-
-.wrapper-second {
-    position: absolute;
-    height: 50%;
-    margin: 0;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.wrapper-third {
-    position: absolute;
-    height: 50%;
-    margin: 0;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
+    text-align: center;
+}}
 
 /* Elementi comuni nella sezione */
 
-/* img{
-    /* position: absolute; */
-    /* top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%); 
-} */
-
 img {
-    height: 80%;
+    height: 100%;
 }
 
 .text {
-    /* bottom: 20%;
-    left: 28%; */
-    font-size: 40px;
+    font-size: 3vw;
     color: yellow;
     text-transform: uppercase;
     font-weight: bold;
 }
 /* fine Elementi comuni nella sezione */
-
-.text-b {
-    /* bottom: 13%;
-    left: 40%; */
-    font-size: 40px;
-    color: yellow;
-    text-transform: uppercase;
-    font-weight: bold;
-    text-align: center;
-}
 
 .green {
     color: green;
@@ -98,6 +63,7 @@ img {
 .button-section {
     position: fixed;
     width: 25%;
+    height: 25%;
     top: 0;
     right: 20px;
     margin: 40px 20px;
